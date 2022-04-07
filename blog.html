@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="assets/styles/blog.css">
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/account-modals.css">
+    <link rel="stylesheet" href="assets/styles/explore.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="header-advertisement">
+            <div class="header-advertisement-item"></div>
+        </div>
+        <header>
+            <nav class="header-nav">
+                <div class="header-nav__inner container">
+                    <div class="header-nav__menu-btn">
+                        <div class="header-nav__menu-btn-inner">
+                            <div class="burger-menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="header-nav__menu-btn-title">Explore</div>
+                        </div>
+                    </div>
+                    <a href="/" class="header-nav__logo"><img src="assets/img/logo.png" class="_contain" alt="Logo"></a>
+                    <div class="header-nav__actions">
+                        <div class="header-account">
+                            <div class="header-account__mobile-signin"><img src="assets/img/icons/account.png" class="_contain" alt="Account"></div>
+                            <div class="header-account__join-now">
+                                <div class="header-account__join-now-logo">
+                                    <img src="assets/img/icons/account.png" class="_contain" alt="Account">
+                                </div>
+                                <div class="header-account__join-now-title">
+                                    <span>Join Now</span>
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 28.769 28.769" style="enable-background:new 0 0 28.769 28.769;" xml:space="preserve">
+                                        <g>
+                                        <g id="c106_arrow">
+                                            <path d="M28.678,5.798L14.713,23.499c-0.16,0.201-0.495,0.201-0.658,0L0.088,5.798C-0.009,5.669-0.027,5.501,0.04,5.353
+                                                C0.111,5.209,0.26,5.12,0.414,5.12H28.35c0.16,0,0.31,0.089,0.378,0.233C28.798,5.501,28.776,5.669,28.678,5.798z"/>
+                                        </g>
+                                        <g id="Capa_1_26_">
+                                        </g>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="header-account__login">Login</div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-main">
+                <div class="header-main__inner container">
+                    <div class="header-main__search">
+                        <div class="header-main__search-block">
+                            <input type="search" placeholder="Find a recipe...">
+                            <button type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#1B365D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20.9999 21L16.6499 16.65" stroke="#1B365D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header-main__advanced-search">
+                            <div class="header-main__advanced-search-title">Search by Ingredient</div>
+                        </div>
+                    </div>
+                    <div class="header-main__categories">
+                        <div class="header-main__categories-slider">
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                            <div class="header-main__categories-item">
+                                <a href="#" class="header-main__categories-item-inner">
+                                    <div class="header-main__categories-item-img-wrapper">
+                                        <div class="header-main__categories-item-img">
+                                            <div class="header-main__categories-item-img-inner">
+                                                <img src="assets/img/cat1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-main__categories-item-title">Christmas Cookies Recipes</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="blog-page container">
+            <div class="_breadcrumbs">
+                <div class="breadcrumbs__row">
+                    <a href="/">Home</a>
+
+                    <div class="breadcrumbs__arrow _product_arrow">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="breadcrumbs__product-title">Blog</div>
+
+                </div>
+            </div>
+            <h1 class="blog-page__title">Blog</h1>
+            <div class="blog-page__main-container">
+                <div class="blog-page__left">
+                    <section class="blog-page__articles">
+                        <div class="blog-page__articles-main">
+                            <div class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Blog Article</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim...</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog-page__articles-aside">
+                            <div class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="blog-page__articles reverse">
+                        <div class="blog-page__articles-main">
+                            <div class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Blog Article</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim...</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog-page__articles-aside">
+                            <div class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="blog-page__articles-grid">
+                        <div class="blog-page__articles-grid-container">
+                            <article class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="blog-page__article-card">
+                                <a href="#">
+                                    <div class="blog-page__article-card-img">
+                                        <div class="blog-page__article-card-img-inner"><img src="assets/img/blog1.jpg" alt="Recipe image"></div>                                   
+                                    </div>
+                                    <div class="blog-page__article-card-content">
+                                        <div class="blog-page__article-card-content-title">Lorem Ipsum</div>
+                                        <div class="blog-page__article-card-describtion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut..</div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="blog-page__articles-grid-btn">
+                            <div class="_btn">Load more</div>
+                        </div>
+                    </section>
+                </div>
+                <div class="blog-page__right">
+                    <div class="blog-page-ad"></div>
+                    <div class="blog-page-ad"></div>
+                    <div class="blog-page-ad"></div>
+                    <div class="blog-page-ad"></div>
+                </div>
+            </div>
+        </main>
+
+        <div class="footer-advertisement">
+            <div class="footer-advertisement__inner">
+                <div class="footer-advertisement__item"></div>
+                <div class="footer-advertisement__item"></div>
+                <div class="footer-advertisement__item"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-main">
+                <div class="footer-main__logo"><img class="_contain" src="assets/img/logo.png" alt="Logo"></div>
+                <div class="footer-main__cols">
+                    <div class="footer-main__col">
+                        <h3>Magazines & More</h3>
+                        <div class="subscribe-block">
+                            <div class="subscribe-block-container">
+                                <div class="subscribe-block__img">
+                                    <img class="_contain" src="assets/img/cookbook-subscr.jpg" alt="Cookbook">
+                                </div>
+                                <div class="subscribe-block__proposal">
+                                    <h5>Receive a <span class="green"><span class="uppercase">Free</span> Cookbook</span> When You Subscribe!</h5>
+                                    <div class="form">
+                                        <input class="subscribe-block-input" type="text" name="Email" placeholder="Email">
+                                        <button class="subscribe-block-btn btn">SUBSCRIBE NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-main__col">
+                        <h3>Learn More</h3>
+                        <ul class="footer-main__links">
+                            <li><a href="/article">Article</a></li>
+                            <li><a href="/account">Account</a></li>
+                            <li><a href="">Nutritional Blog</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-main__col">
+                        <h3>Connect</h3>
+                        <ul class="footer-main__links">
+                            <li><a href="">Follow Us</a></li>
+                        </ul>
+                        <ul class="socials">
+                            <li><a href=""><img class="_contain" src="assets/img/icons/fb.png" alt="facebook"></a></li>
+                            <li><a href=""><img class="_contain" src="assets/img/icons/twitter.png" alt="twitter"></a></li>
+                            <li><a href=""><img class="_contain" src="assets/img/icons/pinterest-footer.png" alt="pinterest"></a></li>
+                            <li><a href=""><img class="_contain" src="assets/img/icons/instagram.png" alt="instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom container">
+                <div class="copywrite">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, modi odit? Magni tempore totam nisi dolorem modi. Suscipit eos laudantium quidem nemo cupiditate officiis, rerum explicabo deleniti consectetur facilis vel nostrum repellat quos possimus soluta vitae tenetur sapiente tempore animi nulla voluptas. Nihil nemo libero rem omnis.</div>
+                <ul class="footer-bottom__links">
+                    <li><a href="">Editorial Policy</a></li>
+                    <li><a href="">ADA Compliance</a></li>
+                    <li><a href="">Sponsorship Policy</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        
+
+        <div class="sign-in__modal">
+            <div class="_modal">
+                <div class="close-btn" title="Close (esc)">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve"><g><g><path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+                                    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+                                    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+                                    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+                                    L284.286,256.002z"/></g></g>
+                    </svg>
+                </div>
+                <div class="_modal-inner">
+                    <div class="_modal-content">
+                        <h6 class="sign-in__modal-title">Sign in to Health eCooking!</h6>
+                        <div class="sign-in__modal-form">
+                            <div class="sign-in__modal-input _input">
+                                <label for="sign-in_email">Email</label>
+                                <input id="sign-in_email" type="text" name="Email" placeholder="Enter Email">
+                            </div>
+                            <div class="sign-in__modal-input _input">
+                                <label for="sign-in_password">Password</label>
+                                <input class="_password-input" id="sign-in_password" type="password" name="Password" placeholder="Enter password">
+                            </div>
+                            <div class="sign-in__modal-form-bottom">
+                                <div class="sign-in__modal-checkbox">
+                                    <div class="_checkbox-item">
+                                        <div class="_checkbox"></div>
+                                        <input id="sign-in_checkbox" type="checkbox" name="Remember-me">
+                                        <div class="_checkbox-label">Remember me</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="sign-in__modal-recover-pass">Forgot password?</a>
+                            </div>
+                        </div>
+                        <div class="sign-in__btn">
+                            <button class="_btn" type="submit">Sign in</button>
+                        </div>
+                        <div class="sign-in__modal-register">
+                            <div class="sign-in__modal-register-title">Don’t have an account?</div>
+                            <a href="#" class="sign-in__modal-register-link">Sign up</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="_modal-overlay"></div>
+        </div>
+
+        <div class="sign-up__modal">
+            <div class="_modal">
+                <div class="close-btn" title="Close (esc)">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve"><g><g><path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+                                    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+                                    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+                                    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+                                    L284.286,256.002z"/></g></g>
+                    </svg>
+                </div>
+                <div class="_modal-inner">
+                    <div class="_modal-content">
+                        <h6 class="sign-in__modal-title">Sign up to Health eCooking!</h6>
+                        <div class="sign-in__modal-form">
+                            <div class="sign-in__modal-input _input">
+                                <label for="sign-up_name">Full name</label>
+                                <input id="sign-up_name" type="text" name="Name" placeholder="Enter your name">
+                            </div>
+                            <div class="sign-in__modal-input _input">
+                                <label for="sign-in_email">Email</label>
+                                <input id="sign-in_email" type="text" name="Email" placeholder="Enter Email">
+                            </div>
+                            <div class="sign-in__modal-input _input">
+                                <label for="sign-in_password">Password</label>
+                                <input class="_password-input" id="sign-in_password" type="password" name="Password" placeholder="Enter password">
+                            </div>
+                            <div class="sign-in__modal-form-bottom">
+                                <div class="sign-in__modal-checkbox">
+                                    <div class="_checkbox-item sign-up_agreement">
+                                        <div class="_checkbox"></div>
+                                        <input id="sign-up_agree" type="checkbox" name="Agreement">
+                                        <label for="sign-up_agree" class="_checkbox-label">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sign-in__btn sign-up__register-btn">
+                            <button class="_btn" type="submit">Sign up</button>
+                        </div>
+                        <div class="sign-in__modal-register">
+                            <div class="sign-in__modal-register-title">Already have an account?</div>
+                            <a href="#" class="sign-up__modal-login-link">Sign in</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="_modal-overlay"></div>
+        </div>
+
+        <div class="reg-confirm__modal">
+            <div class="_modal">
+                <div class="close-btn" title="Close (esc)">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve"><g><g><path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+                                    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+                                    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+                                    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+                                    L284.286,256.002z"/></g></g>
+                    </svg>
+                </div>
+                <div class="_modal-inner">
+                    <div class="_modal-content">
+                        <h6 class="sign-in__modal-title">Thank you for signing up!</h6>
+                        <div class="reg-confirm__modal-notification">We’ve sent a confirmation email to <span class="bold">email@gmail.com</span></div>
+                        <div class="sign-in__modal-register">
+                            <div class="sign-in__modal-register-title">Email hasn’t been sent?</div>
+                            <a href="#" class="sign-in__modal-register-link">Resend</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="_modal-overlay"></div>
+        </div>
+
+        <div class="explore-menu__modal">
+            <div class="_modal">
+                <div class="close-btn" title="Close (esc)">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 47.971 47.971" style="enable-background:new 0 0 47.971 47.971;" xml:space="preserve">
+                    <g>
+                        <path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88
+                            c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242
+                            C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879
+                            s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z"/>
+                    </g>
+                    </svg>
+                </div>
+                <div class="_modal-inner">
+                    <div class="_modal-content">
+                        <header class="_modal-content__header">
+                            <div class="_modal-content__header-logo">
+                                <div class="_modal-content__header-logo-img"><img src="assets/img/logo.png" class="_contain" alt="Logo"></div>
+                            </div>
+                            <div class="header-nav__actions">
+                                <div class="header-account">
+                                    <div class="header-account__join-now">
+                                        <div class="header-account__join-now-logo"><img src="assets/img/icons/account.png" class="_contain" alt="Account"></div>
+                                        <div class="header-account__join-now-title">
+                                            <span>Join Now</span>
+                                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 28.769 28.769" style="enable-background:new 0 0 28.769 28.769;" xml:space="preserve">
+                                                <g>
+                                                <g id="c106_arrow">
+                                                    <path d="M28.678,5.798L14.713,23.499c-0.16,0.201-0.495,0.201-0.658,0L0.088,5.798C-0.009,5.669-0.027,5.501,0.04,5.353
+                                                        C0.111,5.209,0.26,5.12,0.414,5.12H28.35c0.16,0,0.31,0.089,0.378,0.233C28.798,5.501,28.776,5.669,28.678,5.798z"/>
+                                                </g>
+                                                <g id="Capa_1_26_">
+                                                </g>
+                                            </svg>                                        
+                                        </div>
+                                    </div>
+                                    <div class="header-account__login">Login</div>
+                                </div>
+                            </div>
+                        </header>
+                        <div class="_modal-content__main">
+                            <div class="explore-menu-sidebar">
+                                <div class="explore-menu-sidebar__find-recipe-section">
+                                    <div class="explore-menu-sidebar__find-recipe">
+                                        <div class="explore-menu-sidebar__find-recipe-title">Find a recipe...</div>
+                                        <div class="explore-menu-sidebar__find-recipe-search-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#1B365D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M20.9999 21L16.6499 16.65" stroke="#1B365D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="explore-menu-sidebar__find-recipe-details">
+                                        <div class="explore-main-content__general">
+                                            <div class="ingredient-block">
+                                                <div class="explore-main_find-recipe-title">Recipe or Ingredient</div>
+                                                <div class="ingredient-block-input"><input placeholder="Write here" type="search"></div>
+                                            </div>
+                                            <div class="exclude-ingredients-block">
+                                                <div class="explore-main_find-recipe-title">Do not include these ingredients</div>
+                                                <div class="checkbox__items rounded-checkboxes">
+                                                    <div class="_checkbox-item" data-value="">
+                                                        <div class="_checkbox"></div>
+                                                        <div class="_checkbox-label">Ingredient 1</div>
+                                                    </div>
+                                                    <div class="_checkbox-item" data-value="">
+                                                        <div class="_checkbox"></div>
+                                                        <div class="_checkbox-label">Ingredient 2</div>
+                                                    </div>
+                                                    <div class="_checkbox-item" data-value="">
+                                                        <div class="_checkbox"></div>
+                                                        <div class="_checkbox-label">Ingredient 3</div>
+                                                    </div>
+                                                    <div class="_checkbox-item" data-value="">
+                                                        <div class="_checkbox"></div>
+                                                        <div class="_checkbox-label">Ingredient 4</div>
+                                                    </div>
+                                                    <div class="_checkbox-item" data-value="">
+                                                        <div class="_checkbox"></div>
+                                                        <div class="_checkbox-label">Ingredient 5</div>
+                                                    </div>
+                                                    <div class="_checkbox-item" data-value="">
+                                                        <div class="_checkbox"></div>
+                                                        <div class="_checkbox-label">Ingredient 6</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="explore-main_search-recipe-btn">
+                                                <button class="btn" type="submit">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="explore-menu-sidebar__categories-list">
+                                    <ul>
+                                        <li class="explore-menu-sidebar__categories-item active" data-explore-title="Breakfast & Brunch Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Breakfast & Brunch Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="explore-menu-sidebar__category-details explore-main-content">
+                                                <div class="explore-main-content__left">
+                                                    <div class="explore-main-content__tags-list">
+                                                        <ul>
+                                                            <li><a href="#">Adventist</a></li>
+                                                            <li><a href="#">Diabetic</a></li>
+                                                            <li><a href="#">Healthy Kids</a></li>
+                                                            <li><a href="#">Heart Healthy</a></li>
+                                                            <li><a href="#">Gluten Free</a></li>
+                                                            <li><a href="#">Weight Loss</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="explore-main-content__right">
+                                                    <div class="recipes-list-block">
+                                                        <h2>Breakfast & Brunch Recipes</h2>
+                                                        <div class="recipes-list-block-column">
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="aside-column-link">
+                                                            <a href="#">View All ></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Lunch Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Lunch Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="explore-menu-sidebar__category-details explore-main-content">
+                                                <div class="explore-main-content__left">
+                                                    <div class="explore-main-content__tags-list">
+                                                        <ul>
+                                                            <li><a href="#">Adventist</a></li>
+                                                            <li><a href="#">Diabetic</a></li>
+                                                            <li><a href="#">Healthy Kids</a></li>
+                                                            <li><a href="#">Heart Healthy</a></li>
+                                                            <li><a href="#">Gluten Free</a></li>
+                                                            <li><a href="#">Weight Loss</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="explore-main-content__right">
+                                                    <div class="recipes-list-block">
+                                                        <h2>Breakfast & Brunch Recipes</h2>
+                                                        <div class="recipes-list-block-column">
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                            <a href="" class="aside-column-item">
+                                                                <div class="aside-column__img">
+                                                                    <div class="aside-column__img-wrapper">
+                                                                        <img src="assets/img/article2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="aside-column__title">Scalloped Potatoes</div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="aside-column-link">
+                                                            <a href="#">View All ></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Dinner Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Dinner Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Appetizer & Snack Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Appetizer & Snack Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Dinner Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Dinner Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Appetizer & Snack Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Appetizer & Snack Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Dinner Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Dinner Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Appetizer & Snack Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Appetizer & Snack Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Dinner Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Dinner Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Appetizer & Snack Recipes">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Appetizer & Snack Recipes</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item explore-menu-sidebar__subcategory" data-explore-title="List of holidays">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">List of holidays</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="explore-menu-sidebar__categories-item" data-explore-title="Nutrition Blog">
+                                            <div class="explore-menu-sidebar__category-title">
+                                                <a href="#">Nutrition Blog</a>
+                                                <span class="_angle-arrow">
+                                                    <svg class="arrow-angle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                                                        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="explore-main active" data-explore-main="Breakfast & Brunch Recipes">
+                                <div class="explore-main-header">
+                                    <h4 class="explore-main-title">Breakfast & Brunch Recipes</h4>
+                                    <div class="explore-main-subtitle">See All Recipes</div>
+                                </div>
+                                <div class="explore-main-content">
+                                    <div class="explore-main-content__left">
+                                        <div class="explore-main-content__tags-list">
+                                            <ul>
+                                                <li><a href="#">Adventist</a></li>
+                                                <li><a href="#">Diabetic</a></li>
+                                                <li><a href="#">Healthy Kids</a></li>
+                                                <li><a href="#">Heart Healthy</a></li>
+                                                <li><a href="#">Gluten Free</a></li>
+                                                <li><a href="#">Weight Loss</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="explore-main-content__right">
+                                        <div class="recipes-list-block">
+                                            <h2>Breakfast & Brunch Recipes</h2>
+                                            <div class="recipes-list-block-column">
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                            </div>
+                                            <div class="aside-column-link">
+                                                <a href="#">View All ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="explore-main" data-explore-main="Lunch Recipes">
+                                <div class="explore-main-header">
+                                    <h4 class="explore-main-title">Lunch Recipes</h4>
+                                    <div class="explore-main-subtitle">See All Recipes</div>
+                                </div>
+                                <div class="explore-main-content">
+                                    <div class="explore-main-content__left">
+                                        <div class="explore-main-content__tags-list">
+                                            <ul>
+                                                <li><a href="#">Adventist</a></li>
+                                                <li><a href="#">Diabetic</a></li>
+                                                <li><a href="#">Healthy Kids</a></li>
+                                                <li><a href="#">Heart Healthy</a></li>
+                                                <li><a href="#">Gluten Free</a></li>
+                                                <li><a href="#">Weight Loss</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="explore-main-content__right">
+                                        <div class="recipes-list-block">
+                                            <h2>Breakfast & Brunch Recipes</h2>
+                                            <div class="recipes-list-block-column">
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                                <a href="" class="aside-column-item">
+                                                    <div class="aside-column__img">
+                                                        <div class="aside-column__img-wrapper">
+                                                            <img src="assets/img/article2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="aside-column__title">Scalloped Potatoes</div>
+                                                </a>
+                                            </div>
+                                            <div class="aside-column-link">
+                                                <a href="#">View All ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="explore-main explore-main_find-recipe">
+                                <div class="explore-main-header">
+                                    <h4 class="explore-main-title">Find a recipe</h4>
+                                </div>
+                                <div class="explore-main-content">
+                                    <div class="explore-main-content__general">
+                                        <div class="ingredient-block">
+                                            <div class="explore-main_find-recipe-title">Recipe or Ingredient</div>
+                                            <div class="ingredient-block-input"><input placeholder="Write here" type="search"></div>
+                                        </div>
+                                        <div class="exclude-ingredients-block">
+                                            <div class="explore-main_find-recipe-title">Do not include these ingredients</div>
+                                            <div class="checkbox__items rounded-checkboxes">
+                                                <div class="_checkbox-item" data-value="">
+                                                    <div class="_checkbox"></div>
+                                                    <div class="_checkbox-label">Ingredient 1</div>
+                                                </div>
+                                                <div class="_checkbox-item" data-value="">
+                                                    <div class="_checkbox"></div>
+                                                    <div class="_checkbox-label">Ingredient 2</div>
+                                                </div>
+                                                <div class="_checkbox-item" data-value="">
+                                                    <div class="_checkbox"></div>
+                                                    <div class="_checkbox-label">Ingredient 3</div>
+                                                </div>
+                                                <div class="_checkbox-item" data-value="">
+                                                    <div class="_checkbox"></div>
+                                                    <div class="_checkbox-label">Ingredient 4</div>
+                                                </div>
+                                                <div class="_checkbox-item" data-value="">
+                                                    <div class="_checkbox"></div>
+                                                    <div class="_checkbox-label">Ingredient 5</div>
+                                                </div>
+                                                <div class="_checkbox-item" data-value="">
+                                                    <div class="_checkbox"></div>
+                                                    <div class="_checkbox-label">Ingredient 6</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="explore-main_search-recipe-btn">
+                                            <button class="btn" type="submit">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="_modal-overlay"></div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>

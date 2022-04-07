@@ -1,0 +1,228 @@
+.sign-in__modal ._modal {
+    max-width: 594px;
+}
+.sign-in__modal ._modal-content {
+    padding: 100px;
+    transition: var(--transition);
+}
+.sign-in__modal-title {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--darkGreen);
+}
+.sign-in__modal-form {
+    padding-top: 32px;
+}
+._input {
+    margin-bottom: 16px;
+}
+._input label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333;
+    display: block;
+    margin-bottom: 12px;
+}
+._input input {
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    padding: 15px 18px 13px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+._input input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}
+._input input._password-input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #9CA3AF;
+}
+.sign-in__modal-form-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign-in__modal-checkbox ._checkbox-label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333;
+}
+._checkbox-item input[type="checkbox"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+.sign-in__modal-checkbox ._checkbox {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.sign-in__modal-checkbox ._checkbox::after {
+    content: "✔";
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    font-size: 18px;
+    display: none;
+}
+.sign-in__modal-checkbox  .checked ._checkbox:after {
+    display: block;
+}
+.sign-in__modal-recover-pass {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7CC142;
+    display: block;
+    padding-left: 15px;
+}
+.sign-in__btn {
+    padding-top: 24px;
+}
+.sign-in__modal-register {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 16px;
+}
+.sign-in__modal-register-title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: #1F2937;
+}
+.sign-in__modal-register-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    text-decoration: underline;
+    color: #7CC142;
+    padding-left: 8px;
+}
+
+
+.sign-up__modal ._modal {
+    max-width: 594px;
+}
+.sign-up__modal ._modal-content {
+    padding: 100px;
+    transition: var(--transition);
+}
+.sign-up_agreement a {
+    color: var(--mainGreen);
+}
+.sign-up__modal-login-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    text-decoration: underline;
+    color: #7CC142;
+    padding-left: 8px;
+}
+.sign-up_agreement {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px 0;
+}
+.sign-up_agreement input[type="checkbox"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.reg-confirm__modal ._modal {
+    max-width: 545px;
+}
+.reg-confirm__modal ._modal-content {
+    padding: 100px;
+    transition: var(--transition);
+}
+.reg-confirm__modal-notification {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #333333;
+    padding-top: 32px;
+    max-width: 220px;
+    margin: 0 auto;
+}
+.reg-confirm__modal-notification .bold {
+    font-weight: 700;
+}
+
+
+
+@media (max-width: 600px) {
+    .sign-in__modal ._modal-content {
+        padding: 35px 20px;
+    }
+    .sign-in__modal-title {
+        font-size: 19px;
+    }
+    .sign-in__modal-form {
+        padding-top: 28px;
+    }
+    .sign-in__modal-checkbox ._checkbox::after {
+        font-size: 16px;
+    }
+    .sign-in__modal-checkbox ._checkbox {
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
+    } 
+
+    
+    .sign-up__modal ._modal-content {
+        padding: 35px 20px;
+    }
+
+
+    
+    .reg-confirm__modal ._modal-content {
+        padding: 35px 20px;
+    }
+}
+
+@media (max-width: 352px) {
+
+    .sign-up_agreement {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 340px) {
+    .sign-in__modal-form-bottom {
+        display: block;
+    }
+    .sign-in__modal-recover-pass {
+        padding-left: 0;
+        padding-top: 12px;
+    }
+
+    .reg-confirm__modal .sign-in__modal-title {
+        font-size: 17px;
+    }
+}
